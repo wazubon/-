@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color:  #00f;
 }
 
 header {
+  width: 100%;
   padding: 20px 0;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -15,6 +14,8 @@ header {
   text-align: center;
   padding: 15px 0;
   margin: 0 auto;
+  border-top: 1px solid #848282;
+  border-bottom: 1px solid #848282;
 }
 
 .nav-list-item  {
@@ -27,7 +28,6 @@ header {
   width: 800px;
   display: flex;
   margin: 50px auto;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -52,7 +52,7 @@ header {
 .flex4  {
   width: 200px;
   height: 200px;
-  background-color: #03ffab;
+  background-color: #93ffab;
 }
 
 .flex5  {
