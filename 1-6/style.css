@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual  {
+  width: 100%;
+  height: 800px;
+  padding: 0 10%;
+}
+
+.main-visual-box1 {
+  height: 200px;
+  background-image: url(img/box1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-visual-box2 {
+  height: 200px;
+  background-image: url(img/box2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-visual-box3 {
+  height: 200px;
+  background-image: url(img/box3.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.main-visual-box4 {
+  height: 200px;
+  background-image: url(img/box4.jpg);
+  background-position: center;
+
+}
