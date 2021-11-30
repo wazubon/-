@@ -20,30 +20,57 @@ main {
 
 .box {
   width: 300px;
-  border-radius: 10px;
+  padding: 10px;
   background-color: #eee;
+  position: relative;
 }
 
 .box:nth-child(2)  {
   margin: 0 30px;
 }
 
-.img {
+.img1 {
   height: 150px;
-}
-
-.img:first-child {
   background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
 }
-
-.img:nth-child(2) {
+.img2 {
+  height: 150px;
   background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
 }
-
-.img:last-child {
+.img3 {
+  height: 150px;
   background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
+.step1  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.step2  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.step3  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
 
 
 
